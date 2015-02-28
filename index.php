@@ -79,7 +79,7 @@
                 <ul id="seminars">
                     <li><span>Jul. 7-9, 2015</span> <a href="/seminars/">The 3rd International Symposium on Energy Challenges and Mechanics</a></li>
                     <li><span>Mar. 10, 2015</span> <a href="/seminars/">How to Design and Specify A Lighting Systems to Meet Title 24 2013</a></li>
-                    <li><span>Feb. 11, 2015<span> <a href="/seminars/">California Comprehensive Energy Strategies for Executives and Owners</a></li>
+                    <li><span>Feb. 11, 2015</span> <a href="/seminars/">California Comprehensive Energy Strategies for Executives and Owners</a></li>
                     <li><span>Jan. 22, 2015</span> <a href="/seminars/">How Controls Can Be Used with Demand Response</a></li>
                 </ul>
                 <div class="txtright rmbig"><a href="/seminars/">Read More</a></div>
