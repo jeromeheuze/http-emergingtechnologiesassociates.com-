@@ -75,12 +75,12 @@
                 <img src="/graphics/up-seminars-feat.jpg" alt="USA Today - Kerstin Joensson, AP"
                      style="margin-bottom: 40px;"/>
 
-                <h2 class="th2">Current Seminars</h2>
+                <h2 class="th2">Current Seminars and Events</h2>
                 <ul id="seminars">
-                    <li><span>November 5, 2014</span> <a href="/seminars/">Specify and Design a Lighting System to meet
-                            Title 24 2013</a></li>
-                    <li><span>October 20, 2014</span> <a href="/seminars/">CALCTP Business Development at San Diego Gas
-                            &amp; Electric's Energy Innovation Center</a></li>
+                    <li><span>Jul. 7-9, 2015</span> <a href="/seminars/">The 3rd International Symposium on Energy Challenges and Mechanics</a></li>
+                    <li><span>Mar. 10, 2015</span> <a href="/seminars/">How to Design and Specify A Lighting Systems to Meet Title 24 2013</a></li>
+                    <li><span>Feb. 11, 2015<span> <a href="/seminars/">California Comprehensive Energy Strategies for Executives and Owners</a></li>
+                    <li><span>Jan. 22, 2015</span> <a href="/seminars/">How Controls Can Be Used with Demand Response</a></li>
                 </ul>
                 <div class="txtright rmbig"><a href="/seminars/">Read More</a></div>
             </div>
@@ -111,6 +111,8 @@
                 <div class="cols width_half">
                     <h2 class="th2">Seminars &amp; Conferences</h2>
                     <ul id="latest_seminars">
+                        <li class="icons lsem"><a href="/seminars/conferences/archives.php">Specify and Design a Lighting System to meet Title 24 2013</a></li>
+                        <li class="icons lsem"><a href="/seminars/conferences/archives.php">CALCTP Business Development at San Diego Gas &amp; Electric's Energy Innovation Center</a></li>
                         <li class="icons lsem"><a href="/seminars/conferences/archives.php">Specify and Design a
                                 Lighting System to meet Title 24 2013</a></li>
                         <li class="icons lsem"><a href="/seminars/archives.php">IDSM Strategies at San Diego Gas &amp;
