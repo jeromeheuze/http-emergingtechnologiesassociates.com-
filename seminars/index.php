@@ -22,14 +22,14 @@
                     src="/graphics/logo-ETA.png" alt="Emerging Technologies Associates logo"/></a></div>
     </header>
 
-    <?php //include("../includes/nav.php"); ?>
+    <?php include("../includes/nav.php"); ?>
 
     <div id="content-bk">
         <div id="content">
             <a name="content"></a>
 
             <h1 class="th1">SEMINARS</h1>
-            <?php include("includes/signup-mailing.php"); ?>
+            <?php //include("includes/signup-mailing.php"); ?>
             <div class="mcolumn">
                 <div class="cols width_l670">
                     <div id="shead">
