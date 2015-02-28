@@ -45,7 +45,7 @@
                             <h3>The 3rd International Symposium on Energy Challenges and Mechanics - towards a big picture</h3>
                             <p>Daryl is speaking in Aberdeen, Scotland, at the invitation of the University of Aberdeen.</p>
                             <ul>
-                                <li class="seminars map">San Diego, CA</a></li>
+                                <li class="seminars map">Aberdeen, Scotland, United Kingdom</a></li>
                             </ul>
                         </div>
 
