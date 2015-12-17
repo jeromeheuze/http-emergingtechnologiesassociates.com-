@@ -858,7 +858,7 @@ Thank you for caring so much and for feeding our troops overseas! YOU ARE THE BE
         
         <div class="nii t2012" id="200312" rel="2012">
         <a href="javascript:void(0);"><span>Lighting Controls Technology Certification</span>
-        <img src="/graphics/news/i200312.jpg" alt="March 20, 2012" /></a>
+        <img src="/graphics/news/i070812.jpg" alt="March 20, 2012" /></a>
         </div>
         
         <div class="nii t2012" id="120312" rel="2012">
@@ -902,7 +902,7 @@ Thank you for caring so much and for feeding our troops overseas! YOU ARE THE BE
         </div>
         <div class="nii t2011" id="250511" rel="2011">
         <a href="javascript:void(0);"><span>San Diego State University Green Campus Intern February 2011</span>
-        <img src="/graphics/news/i250511.jpg" alt="May 25, 2011" /></a>
+        <img src="/graphics/news/i231110.jpg" alt="May 25, 2011" /></a>
         </div>
         
         <div class="nii t2011" id="270411" rel="2011">
