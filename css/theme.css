@@ -62,6 +62,7 @@ a:active {color:#00699B;text-decoration:none;}
 .width_half {width:455px;}
 .width_third {width:320px;}
 .width_l670 {width:652px;margin-right:10px;}
+.width_100p {width:100%;}
 .width_r256 {width:256px;}
 .txtright {position:absolute;right:5px;bottom: 5px;}
 .p10top {padding-top:10px;}
@@ -236,7 +237,7 @@ nav {background:#ccc;padding: 4px 4px 4px 4px;position:relative;overflow:auto;}
 #bottomfeatures a:link, #bottomfeatures a:visited {color:#0066FF;text-decoration:none;}
 #bottomfeatures a:hover, #bottomfeatures a:active {color:#0066FF;text-decoration:underline;}
 #bottomfeatures h2 {font-size:18px;color:#0066FF;display:block;padding: 0 10px 0 10px;line-height:120%;}
-#bottomfeatures .feat-notab {background:url(/graphics/feat-bk.png) bottom center repeat-x transparent;height:300px;width:180px;float:left;margin-right: 5px;text-align:center;}
+#bottomfeatures .feat-notab {background:url(/graphics/feat-bk.png) bottom center repeat-x transparent;height:80px;width:180px;float:left;margin-right: 5px;text-align:center;padding-top:10px;}
 
 /* ### FOOTER ### */
 #footerfeatured h3 {font-size:15px;margin: 0 0 10px 10px;font-family:'Abel',sans-serif;font-weight:bold;}
