@@ -53,7 +53,7 @@ table {
 /* ETA Theme v2 */
 
 /* ### GLOBALS ### */
-body {font-family: Arial, Helvetica, sans-serif;font-size:.9em; background:url(/graphics/body-bk.jpg) top center no-repeat #fff;}
+body {font-family: Arial, Helvetica, sans-serif;font-size:.9em; background: #adadad;}
 #all {margin: 0 auto; width:960px;}
 a:link {color:#00699B;text-decoration:none;}
 a:visited {color:#00699B;text-decoration:none;}
