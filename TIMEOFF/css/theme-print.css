@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* theme for ETAv2 from HEUZE-production.com - 01/2012 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ETA Theme v2 */
+
+/* ### GLOBALS ### */
+body {font-family: Arial, Helvetica, sans-serif;font-size:12px; background: #fff;}
+#all {margin: 0 auto; width:960px;}
+a:link {color:#00699B;text-decoration:none;}
+a:visited {color:#00699B;text-decoration:none;}
+a:hover {color:#00699B;text-decoration:underline;}
+a:active {color:#00699B;text-decoration:none;}
+.width_half {width:455px;}
+.width_third {width:320px;}
+.width_l670 {width:652px;margin-right:10px;}
+.width_r256 {width:256px;}
+.txtright {position:absolute;right:5px;bottom: 5px;}
+.p10top {padding-top:10px;}
+.red {color:#ff0000;}
+.blue {color:#054A6A;}
+.windowp h2 {font-size:18px;font-weight:bold;font-family:'Abel',sans-serif;color:#054A6A;}
+.windowp p {padding: 15px 0;}
+.windowp ol {margin: 10px 25px; list-style-type: decimal-leading-zero;padding:0;}
+.windowp ol li {padding: 3px 0;}
+input, textarea {border: 1px solid #ccc;}
+.btn {padding:4px;cursor:pointer;}
+.btn:hover {padding:4px;cursor:pointer; border:1px solid #999;}
+strong {font-weight:bold;}
+
+/* sprites */
+.icons {background:url(/TIMEOFF/graphics/icons-sprites.png) no-repeat;}
+.lnews {background-position: 0px 0px;}
+.lsem {background-position: 0px -20px;}
+.vid {background-position: 0px -57px; padding-left:20px;}
+.pdf {background-position: 0px -71px; padding-left:20px;}
+.bullets {background:url(/TIMEOFF/graphics/bullet-sprites.png) no-repeat;}
+.bred {background-position: 0px 0px; padding-left: 13px;}
+.seminars {background:url(/TIMEOFF/graphics/seminar-sprites.png) no-repeat;}
+.at {background:url(/TIMEOFF/graphics/icons/at.png) 0 0 no-repeat; padding:2px 0 0 20px;}
+.rss {background:url(/TIMEOFF/graphics/icons/rss.png) 0 0 no-repeat; padding:2px 0 0 20px;}
+.cal {background:url(/TIMEOFF/graphics/icons/cal.png) 0 0 no-repeat; padding:2px 0 4px 20px;font-size:14px;font-weight:bold;color:#054968;border-bottom:1px solid #ccc;margin-bottom:7px;}
+.time {background-position: 0px -48px; padding:2px 0 0 20px;}
+.map {background-position: 0px -64px; padding:2px 0 0 20px;}
+.reg {background-position: 0px -80px; padding:2px 0 0 20px;font-weight:bold;}
+
+/* ### HEADER ### */
+header {background:url(/TIMEOFF/graphics/header-bk.png) top center no-repeat transparent;height:195px; position:relative;}
+#headersub {height:90px;}
+#header-top {background:url(/TIMEOFF/graphics/header-top.png) bottom center no-repeat transparent;height:90px; position:relative;}
+#logo {width:441px;height:80px;left:8px;top:5px;position:relative;}
+#features {position:relative;width:960px;padding: 5px 7px 0 8px;font-family:'Abel',sans-serif;}
+#features img {border:none; margin: 19px 0 29px 0;}
+#features a:link, #features a:visited {color:#fff;text-decoration:none;}
+#features a:hover, #features a:active {color:#fff;text-decoration:underline;}
+#features h2 {font-size:18px;color:#fff;display:block;padding: 0 15px 0 15px;line-height:120%;}
+#features .feat {background:url(/TIMEOFF/graphics/feat-bk-tab.png) bottom center repeat-x transparent;height:80px;width:183px;float:left;margin-right: 7px;text-align:center; padding-top: 10px;}
+#features .feat-notab {background:url(/TIMEOFF/graphics/feat-bk.png) bottom center repeat-x transparent;height:80px;width:183px;float:left;margin-right: 7px;text-align:center; padding-top: 10px;}
+
+/* ### NAV ### */
+nav {display:none;}
+
+/* ### CONTENT ### */
+#content-bk {background:#ccc;padding: 2px 4px 4px 4px;clear:both;}
+#content {background:#fff;padding: 17px;position:relative;}
+/*Typography body*/
+#content .th1 {font-size:22px;margin: 0 0 10px 0;font-family:'Abel',sans-serif;}
+#content .th2 {font-size:18px;margin: 0 0 10px 0;font-family:'Abel',sans-serif;}
+#content .th3 {font-size:15px;margin: 0 0 10px 0;font-family:'Abel',sans-serif;}
+#content h4 {font-weight:bold;}
+
+#content p {padding: 0 0 10px 0;line-height:120%;}
+#content p.rmbig {font-family:'Abel',sans-serif;font-weight:bold; font-size:15px;}
+#content p.rmbig a {color:#000;}
+#content p.rmsmall {font-family:'Abel',sans-serif;font-weight:bold; font-size:12px;}
+#content p.rmsmall a {color:#000;}
+#content .ullist {margin:0px 25px 10px 25px;line-height:120%; list-style-type:square;}
+#content ol {margin:0px 25px 10px 25px;line-height:120%; list-style-type:decimal-leading-zero;}
+#content ol li {padding: 4px 0;}
+
+/** Mission statement **/
+#ms-box {background:url(/TIMEOFF/graphics/gradient-ms-box.png) top left repeat-x;color:#fff;position:relative;overflow:auto;padding:5px;margin-bottom:10px;}
+#ms-box p {padding: 25px 30px 0 5px;line-height:130%}
+#ms-box img {margin-left:20px;}
+.bluesquare {position:relative;clear:both;overflow:auto;margin-bottom:10px;}
+.bluesquare img {float:left;}
+.bluesquare p {padding-left:10px;float:right; width:800px;}
+.bluesquare span {padding:10px;}
+.galleries {position:relative;overflow:hidden;}
+.gallery {margin:0 10px 0 0;float:left;padding:0;}
+
+/* ### CONTENT MODULE ### */
+#up-seminars {background:#00699B; padding: 4px; position:relative;overflow:auto;margin-bottom: 10px;}
+#up-seminars img {float:left;margin-right:12px;}
+#up-seminars h2 {color:#fff;}
+#seminars li {padding: 7px 0;}
+#seminars li span {background:#fff; padding: 3px 4px; border-radius: 3px;margin-right:5px;}
+#seminars li a {color:#fff;}
+#up-seminars .rmbig a {color:#fff;}
+
+#latest_news {margin-bottom: 10px;}
+#latest_news li {padding: 0px 0 5px 20px;line-height:120%;}
+#latest_seminars {margin-bottom: 10px;}
+#latest_seminars li {padding: 0px 0 5px 20px;line-height:120%;}
+
+/* columns */
+.mcolumn {clear:both; position:relative;overflow:hidden;}
+.cols {float:left;}
+.width_lbl {width:140px;padding: 2px 0;margin: 4px 0;}
+
+/*contactform*/
+#cont_form label {font-size:14px;font-weight:bold;}
+
+/* team page and project page */
+.row {position:relative; overflow:hidden; font-family:Arial, Helvetica, sans-serif;}
+.row .item {float:left;width:228px; height:300px;}
+.row .item .pic {background:url(/TIMEOFF/graphics/pic_frame228x228.png) top left no-repeat #fff;padding:9px;border:none;}
+.row .item .ititle {color:#990000;font-size:15px;margin: 3px 0 4px 9px;font-weight:bold;}
+.row .item .ptitle {color:#0066FF;font-size:13px;margin: 3px 0 4px 0;display:block; text-align:center;padding: 0 10px;line-height: 140%;}
+.row .item .ptitle:hover {text-decoration:underline;}
+.row .item a {text-decoration:none;}
+.row .item .isub {color:#0066FF; font-size:12px;font-weight:bold;margin-left:9px; line-height:120%;}
+.row .item .isub span {color:#000;}
+
+/* seminars */
+#mlist {position:absolute; top:22px; right:17px;}
+#shead div {float:left;vertical-align:middle;}
+#shead #rss {margin-top:7px;margin-left: 10px;}
+.grey-box {background:#eaeaea;margin-bottom:5px;padding:10px;}
+.grey-box h3 {font-size:18px;font-weight:bold;font-family:'Abel',sans-serif;color:#054A6A;}
+.calendarlist {clear:both;}
+.callitem {clear:both;position:relative;margin: 25px 0;}
+#callitemreg {position:absolute; top:1px; right:10px;}
+.callitem h3 {font-weight:bold;margin-bottom:10px;}
+.callitem p {margin:0;}
+.callitem h3 span {font-weight:normal;}
+.callitem ul {margin:0 0 25px 0;}
+.callitem ul li {margin:7px 0;padding-top:4px;}
+.eventlist ul {margin: 10px 0;}
+.eventlist ul li {border-bottom:1px solid #ccc;margin: 15px 0;}
+.eventlist ul li h4 {font-weight:bold; padding-bottom: 4px;}
+.eventlist ul li h4 a:link, .eventlist ul li h4 a:visited {color: #000;}
+.eventlist ul li p {color:#054A6A;}
+.eventlist h5 {font-weight:bold;margin-bottom:5px;display:block;text-align:center;}
+
+/** Service popup **/
+#servicesNav {width:800px;height:500px;}
+#servicesNav .th1 {font-size:22px;margin: 0 0 10px 0;font-family:'Abel',sans-serif;}
+#servicesNav .th2 {font-size:18px;margin: 0 0 10px 0;font-family:'Abel',sans-serif;}
+#servicesNav .th3 {font-size:15px;margin: 0 0 10px 0;font-family:'Abel',sans-serif;}
+#servicesNav p {padding: 0 0 10px 0;line-height:120%;}
+
+/*projects page*/
+.cats {width:898px;height:111px;position:relative; margin: 10px 0;clear:both;}
+.catheader {position:relative;}
+.catheader h2, .catheader h3, .catheader h4 {float:left;vertical-align:middle;}
+.ph2 {color:#fff;font-size:22px;margin: 0 0 0 0;font-family:'Abel',sans-serif;position:absolute; top:62px; left:10px;}
+.ph3 {color:#ffff00;font-size:15px;margin: 0 0 0 25px;font-family:'Abel',sans-serif;position:absolute; top:65px; left:510px;}
+.ph4 {color:#990000;font-size:15px;margin: 0 0 0 25px;position:absolute; top:67px; left:632px;font-weight:bold;}
+.estar {background:url(/TIMEOFF/graphics/projects/project_cat01.jpg) top left no-repeat;}
+.prjdev {background:url(/TIMEOFF/graphics/projects/project_cat02.jpg) top left no-repeat;}
+
+/*bottom services */
+#bottomfeatures {position:relative;width:926px;padding: 5px 7px 0 8px;font-family:'Abel',sans-serif;}
+#bottomfeatures img {border:none; margin: 10px 0 10px 0;}
+#bottomfeatures a:link, #bottomfeatures a:visited {color:#0066FF;text-decoration:none;}
+#bottomfeatures a:hover, #bottomfeatures a:active {color:#0066FF;text-decoration:underline;}
+#bottomfeatures h2 {font-size:18px;color:#0066FF;display:block;padding: 0 10px 0 10px;line-height:120%;}
+#bottomfeatures .feat-notab {background:url(/TIMEOFF/graphics/feat-bk.png) bottom center repeat-x transparent;height:300px;width:180px;float:left;margin-right: 5px;text-align:center;}
+
+/* ### FOOTER ### */
+#footerfeatured h3 {font-size:15px;margin: 0 0 10px 10px;font-family:'Abel',sans-serif;font-weight:bold;}
+.flist {padding-top:5px;padding-left:10px;}
+.fimg {padding:20px 20px 20px 60px;}
+footer {background-color:#1E1F26;color:#fff;font-family:'Abel',sans-serif;}
+footer a:link {color:#fff;text-decoration:none;}
+footer a:visited {color:#fff;text-decoration:none;}
+footer a:hover {color:#fff;text-decoration:underline;}
+footer a:active {color:#fff;text-decoration:none;}
+footer .copy {font-size:14px;text-align:center;padding:15px 0;}

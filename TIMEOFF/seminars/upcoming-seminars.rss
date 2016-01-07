@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emerging Technologies Associates, Inc - SEMINARS</title>
+    <link>http://www.emergingtechnologiesassociates.com/seminars/</link>
+	<atom:link href="http://www.emergingtechnologiesassociates.com/seminars/upcoming-seminars.rss" rel="self" type="application/rss+xml" />
+    <description>RSS Web Feed for Emerging Technologies Associates, Inc - SEMINARS</description>
+    <generator>HEUZE Production</generator>
+    <pubDate>Sat, 29 September 2012 17:54:00 PST</pubDate>
+    <lastBuildDate>Sun, 30 September 2012 17:54:00 PST</lastBuildDate>
+    <ttl>600</ttl>
+
+    <item>
+      <title>Building Management Systems (BMS) and Advanced Lighting Control Systems (ALCS)</title>
+      <link>http://www.emergingtechnologiesassociates.com/seminars/</link>
+      <guid isPermaLink="false">http://www.emergingtechnologiesassociates.com/seminars/</guid>
+      <description>September 18, 2012 - Daryl will be conducting a seminar on how to best utilize building optimization technologies including building management systems (BMS) and advanced lighting control systems (ALCS) at SDG&amp;E's Energy Innovation Center.</description>
+    </item>
+    <item>
+      <title>Business Development Module of CALCTP</title>
+      <link>http://www.emergingtechnologiesassociates.com/seminars/</link>
+      <guid isPermaLink="false">http://www.emergingtechnologiesassociates.com/seminars/</guid>
+      <description>September 20, 2012 - Lee and Daryl will be teaching the Business Development Module of CALCTP at SDG&amp;E's Energy Innovation Center.</description>
+    </item>
+	
+  </channel>
+
+</rss>
