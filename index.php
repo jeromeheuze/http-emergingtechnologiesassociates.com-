@@ -16,7 +16,7 @@
 <article>
     <h1>We&rsquo;ll be back soon!</h1>
     <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always contact us: Emerging Technologies Associates Inc. 5951 Caminito De la Taza San Diego, CA 92120, otherwise we&rsquo;ll be back online shortly!</p>
+        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always contact us: Emerging Technologies Associates Inc. 2071 Shelter Island Drive San Diego, CA 92106, otherwise we&rsquo;ll be back online shortly!</p>
         <p>&mdash; The ETA Team</p>
     </div>
 </article>
